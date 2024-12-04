@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:EncryptedModel}",
+            "name": "Debug EncryptedModelClient",
+            "program": "${workspaceFolder:EncryptedModel}/.build/debug/EncryptedModelClient",
+            "preLaunchTask": "swift: Build Debug EncryptedModelClient"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:EncryptedModel}",
+            "name": "Release EncryptedModelClient",
+            "program": "${workspaceFolder:EncryptedModel}/.build/release/EncryptedModelClient",
+            "preLaunchTask": "swift: Build Release EncryptedModelClient"
+        }
+    ]
+}
